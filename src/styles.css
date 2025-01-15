@@ -1,0 +1,117 @@
+html{
+    font-size: 14px;
+}
+
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+#logo{
+    margin-left: 10px;
+}
+
+
+.hidden{
+    display:none;
+}
+
+.toggle-menu{
+    cursor: pointer;
+    border:0;
+    background-color: white;
+    font-size: 48px;
+}
+
+#header-info{
+    padding:40px 50px 40px 10px;
+}
+
+.intro-text{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 39.06px;
+}
+
+.intro-text-body{
+    font-family: 'Inter',sans-serif;
+    font-size: 13.38px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    
+}
+
+.signup-button{
+    width: 137.11px;
+    height: 47.23px;
+    border:0;
+    border-radius: 5px;
+    font-size: 19.08px;
+    margin-left: 0px;
+    background: linear-gradient(90deg, #DDD3EF 0%,#FDD9FF 42%,#B2E0FE 100%);
+    cursor: pointer;
+}
+
+#partners{
+    /* background: black;
+    object-fit: cover;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center; */
+    background: black;
+    object-fit: cover;
+    display: flex; /* Ensure flexbox is applied */
+    flex-direction: column; 
+    justify-content: center; /* Center horizontally */ 
+    align-items: center;
+    gap: 20px;
+    border:20px 0 20px 0;
+}
+
+.b1{
+    margin-top: 20px;
+    width:85.01px;
+    height:79.83px;
+}
+
+.b2{
+    width:192.23px;
+    height:74.01px;
+}
+
+.b3, .b4{
+    width:200.26px;
+    height:18.89px;
+}
+
+.b4{
+    margin-bottom: 150px;
+}
+.doctor{
+    width:259.27px;
+    height:291.67px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px gray; 
+    justify-content: center;   
+}
+.dr-img{
+    padding: 10px;
+    border-radius: 5%;
+    
+}
+/* #nav-menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+#nav-menu ul li{
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+} */

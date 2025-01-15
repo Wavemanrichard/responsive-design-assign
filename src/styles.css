@@ -58,18 +58,14 @@ header{
 }
 
 #partners{
-    /* background: black;
-    object-fit: cover;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center; */
+    position:relative;
     background: black;
     object-fit: cover;
     display: flex; /* Ensure flexbox is applied */
     flex-direction: column; 
     justify-content: center; /* Center horizontally */ 
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     border:20px 0 20px 0;
 }
 
@@ -92,17 +88,87 @@ header{
 .b4{
     margin-bottom: 150px;
 }
+
+#dr-contain{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    z-index: 1px;
+    margin-top:-90px;
+    position:relative;
+    
+}
+
 .doctor{
+    background: #ffffff;
     width:259.27px;
     height:291.67px;
+    border-left: 0;
     border-radius: 5%;
-    box-shadow: 5px 5px 10px gray; 
-    justify-content: center;   
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); 
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    z-index: 2;
 }
 .dr-img{
-    padding: 10px;
+    position:relative;
+    padding: 15px;
     border-radius: 5%;
     
+    
+}
+
+.star{
+    align-self: flex-start;
+    padding-left: 15px;
+}
+
+.rating{
+    font-family: 'Inter',sans-serif;
+    font-size:0.725rem;
+    padding-left:5px;
+}
+
+.dr-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #42445D;
+    align-self: flex-start;
+    padding: 5px 15px 0 15px;
+    margin-bottom: 5px;
+
+}
+
+.availability{
+    padding-left: 50px;
+}
+
+.dr-text{
+    font-family: 'Roboto',sans-serif;
+    font-size: 9.79px;
+    padding: 0px 15px 0 15px;
+    color: #42445D;
+}
+
+.book-button{
+    background: #ffffff;
+    border: 5% solid transparent;
+    border-radius: 5px;
+    border-image: linear-gradient(90deg,#DDD3EF 0%,#FDD9FF 42%,#B2E0FE 100%) 1;
+
+}
+
+.book-text{
+    font-family: 'Inter', sans-serif;
+    align-self: flex-start;
+    /* border-radius: 5%; */
+    padding: 5px 15px 0 15px;
+    font-size:12.67px;
+    width: 139.153px;
+    height: 31.48px;
 }
 /* #nav-menu ul{
     display: flex;

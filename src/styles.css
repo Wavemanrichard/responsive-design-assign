@@ -46,15 +46,24 @@ header{
     
 }
 
-.signup-button{
+.signin-button{
     width: 137.11px;
     height: 47.23px;
     border:0;
     border-radius: 5px;
+    /* border-image: linear-gradient(90deg, #B0A1D8 0%, #E0A9D3 42%, #9BBFE3 100%) 1; */
+
     font-size: 19.08px;
     margin-left: 0px;
     background: linear-gradient(90deg, #DDD3EF 0%,#FDD9FF 42%,#B2E0FE 100%);
     cursor: pointer;
+}
+
+.button-container {
+    display: inline-block; /* Fit to content size */
+    padding: 1px; /* Border thickness */
+    border-radius: 5px; /* Rounded edges for the outer border */
+    background: linear-gradient(90deg, #B0A1D8 0%, #E0A9D3 42%, #9BBFE3 100%); /* Gradient for the border */
 }
 
 #partners{
@@ -153,12 +162,18 @@ header{
     color: #42445D;
 }
 
+
+.dr-bottom-contain{
+    display: flex;
+    align-self: flex-start;
+}
+
 .book-button{
     background: #ffffff;
-    border: 5% solid transparent;
+    border: 2px solid transparent;
     border-radius: 5px;
     border-image: linear-gradient(90deg,#DDD3EF 0%,#FDD9FF 42%,#B2E0FE 100%) 1;
-
+    
 }
 
 .book-text{
@@ -169,6 +184,22 @@ header{
     font-size:12.67px;
     width: 139.153px;
     height: 31.48px;
+}
+
+.booking-b{
+    background: #000;
+    border: 0;
+    border-radius: 5px;
+    align-content: center;
+    width:38.89px;
+    height:32.41px;
+    
+}
+
+
+.footer-logo{
+    width: 61.17px;
+    height:21.05px;
 }
 /* #nav-menu ul{
     display: flex;

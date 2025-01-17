@@ -11,24 +11,86 @@ header{
 }
 
 
-
 #logo{
     margin-left: 10px;
 }
 
-
-.hidden{
-    display:none;
+.off-screen-menu{
+    background-color:#fff;
+    height: 100vh;
+    width:100%;
+    max-width: 80%;
+    position:fixed;
+    top: 0;
+    right:-100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: left;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+    font-family: 'Poppins',sans-serif;
+    list-style-type: none;
+    z-index:9;
 }
-.open{
-    display: block;
+
+.off-screen-menu.active{
+    right: 0;
+    
 }
 
-.toggle-menu{
-    cursor: pointer;
-    border:0;
-    background-color: white;
-    font-size: 48px;
+
+
+nav{
+    padding:1rem;
+    display: flex;
+    background-color:#fff;
+    z-index: 10;
+    position:relative;
+}
+
+.ham-menu{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+
+}
+
+.ham-menu span{
+    height: 5px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.3s ease;
+}
+
+.ham-menu span:nth-child(1){
+    top:25%;
+}
+
+.ham-menu span:nth-child(3){
+    top:75%;
+}
+
+.ham-menu.active span:nth-child(1){
+    top: 50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2){
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3){
+    top: 50%;
+    transform:translate(-50%, -50%) rotate(-45deg);
 }
 
 #header-info{
@@ -111,7 +173,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    z-index: 1px;
+    z-index: 1;
     margin-top:-90px;
     position:relative;
     
@@ -319,15 +381,22 @@ footer{
     font-size: smaller;
 }
 
+/* tablets */
+@media screen and (min-width:576px){
 
-/* #nav-menu ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
+
     
+    #nav-menu ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+    
+    }
+
+    #nav-menu ul li{
+        padding: 30px;
+        font-family: 'Inter', sans-serif;
+    }
+
 }
 
-#nav-menu ul li{
-    padding: 30px;
-    font-family: 'Inter', sans-serif;
-} */

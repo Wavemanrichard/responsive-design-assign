@@ -1,4 +1,9 @@
-document.getElementById("menu-button").addEventListener("click", function() {
-    const navMenu = document.getElementById("nav-menu");
-    navMenu.classList.toggle("open");
+const hamMenu = document.querySelector('.ham-menu');
+
+const offScreenMenu = document.querySelector('.off-screen-menu');
+
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');
+    offScreenMenu.classList.toggle('active');
 });
+

@@ -230,13 +230,14 @@ nav {
     height: 74.01px;
 }
 
-.b3,
-.b4 {
+.b3{
     width: 200.26px;
     height: 18.89px;
 }
 
 .b4 {
+    width:201;
+    height:auto;
     margin-bottom: 150px;
 }
 

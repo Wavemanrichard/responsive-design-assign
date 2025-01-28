@@ -514,7 +514,9 @@ footer {
     font-weight: 300;
     font-size: smaller;
     display: flex;
-    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* tablets */

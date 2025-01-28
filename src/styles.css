@@ -514,7 +514,7 @@ footer {
     font-weight: 300;
     font-size: smaller;
     display: flex;
-    /* justify-self: center; */
+    justify-self: center;
 }
 
 /* tablets */

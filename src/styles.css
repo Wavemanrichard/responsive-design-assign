@@ -118,6 +118,7 @@ nav {
 }
 
 .signin-button {
+    color: #000;
     width: 137.11px;
     height: 47.23px;
     border: 0;
@@ -513,7 +514,7 @@ footer {
     font-weight: 300;
     font-size: smaller;
     display: flex;
-    justify-self: center;
+    /* justify-self: center; */
 }
 
 /* tablets */

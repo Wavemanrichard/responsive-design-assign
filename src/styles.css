@@ -360,6 +360,9 @@ nav {
     height: 32.41px;
 
 }
+.book-b{
+    color:#000;
+}
 
 .button-flex {
     display: flex;
@@ -458,6 +461,7 @@ footer {
     /* display: flex; */
     /* flex-direction: column; */
     justify-content: center;
+    align-content: center;
 }
 
 .m-logo {

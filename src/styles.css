@@ -241,6 +241,11 @@ nav {
     margin-bottom: 150px;
 }
 
+.b4 img{
+    width: 100%;
+    height:auto;
+}
+
 #dr-contain {
     display: flex;
     flex-direction: column;
